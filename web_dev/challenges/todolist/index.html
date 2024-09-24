@@ -1,0 +1,33 @@
+<html></html>
+	<head>
+		<title>ToDo</title>
+
+		<!-- import bootstrap -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="bootstrap.css"
+		      />
+
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="styles.css"
+		      />
+
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h2>ToDo</h2>
+			<form id="form-add-task" class="taskForm">
+				<input type="text" name="task" id='taskInput' placeholder="Press enter to add a task"/>
+			</form>
+			<ul id="list-tasks">
+			</ul>
+			<p>Total Tasks: <span id="totalTasks">0</span></p>
+			<form id="form-delete-all"><button type="submit">Delete All Tasks</button></form>
+		</div>
+    </body>
+    <script src="scripts.js" type="text/javascript"></script>
+</html>

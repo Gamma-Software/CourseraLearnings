@@ -1,0 +1,26 @@
+<head>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    </head>
+
+    <body>
+        <h1 id="title2" onmouseleave="no();"> Hello </h1>
+    </body>
+
+    <script type="text/javascript">
+        function sayGoodbye(){
+            console.log("goodbye");
+            $("#title").html("Goodbye");
+            $("#title").mouseleave(function () {
+                $("#title").html("Hello");
+                $("#title").off("onmouseenter");
+            });
+        };
+        function no(){
+            $(this).html("I'm offended");
+        }
+        alert($("#title2").html());
+
+
+    </script>

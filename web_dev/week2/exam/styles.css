@@ -1,0 +1,17 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+/** The H1 text color takes the color red below 1000px */
+h1{
+    color:red;
+}
+/** The H1 text color takes the color blue above 1000px */
+@media (min-width: 1000px) {
+    h1 {
+        color:blue;
+    }
+}
+/** The H1 color takes the color yellow when the mouse is hovering on top */
+h1:hover{
+    color:yellow;
+}

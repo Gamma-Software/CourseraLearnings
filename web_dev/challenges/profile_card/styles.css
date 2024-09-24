@@ -1,0 +1,54 @@
+/* The animation code */
+@keyframes example {
+    from {box-shadow: 10px 14px 8px rgba(14, 3, 3, 0.343);}
+    to {box-shadow: 5px 7px 4px rgba(14, 3, 3, 0.505);}
+}
+
+.btn{
+    margin-bottom:2rem;
+}
+
+.profileContainer{
+    width: 50%;
+    max-width: 50vh;
+    border: 4px solid black;
+    border-radius: 30px;
+    display: block;
+    margin: 4rem auto 4rem auto;
+    background-color:rgb(189, 223, 251);
+    box-shadow: 10px 14px 8px rgba(14, 3, 3, 0.343);
+}
+
+.profileContainer:hover{
+    box-shadow: 5px 7px 4px rgba(14, 3, 3, 0.505);
+    animation-name: example;
+    animation-duration: 0.1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.profileName{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.profileBio{
+    font-size: 10pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.profilePic{
+    display: block;
+    margin:3rem auto;
+    width: 80%;
+    border-radius: 20px;
+}
+.profilePic:hover{
+    width: 85%;
+}
+
+
+.social{
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,12 @@
+.taskForm{
+    text-align: center;
+    width: 100%;
+}
+
+.task{
+    font-size:larger;
+}
+
+.taskDone{
+    text-decoration:line-through;
+}
