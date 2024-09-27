@@ -1,0 +1,51 @@
+body{
+    background-color: #edefee;
+    font-family: 'MarsAlbert', sans-serif;
+    margin: 3rem 3rem 5% 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem
+}
+
+nav ul {
+    list-style:none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex:1;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex:1;
+}
+
+.logo-footer{
+    width: 5%;
+}
+
+.copyright{
+    border-color: black;
+}
